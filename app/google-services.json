@@ -1,0 +1,55 @@
+{
+  "project_info": {
+    "project_number": "265783028784",
+    "firebase_url": "https://brickup-6d241.firebaseio.com",
+    "project_id": "brickup-6d241",
+    "storage_bucket": "brickup-6d241.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:265783028784:android:58a20cfbabbe18c3",
+        "android_client_info": {
+          "package_name": "com.namankhurpia.brick_up"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "265783028784-g03j9dvbknogs0o9qlq6ne421si5105r.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.namankhurpia.brick_up",
+            "certificate_hash": "395f3c87a132959ab4b7fb4cce8b4bdc2d9f1a85"
+          }
+        },
+        {
+          "client_id": "265783028784-9re33g0pvvak5mt6av78ebsdahs74h64.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDcPIenuNd0I-ATJd7djiGlRK4cSShsuNw"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "265783028784-9re33g0pvvak5mt6av78ebsdahs74h64.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

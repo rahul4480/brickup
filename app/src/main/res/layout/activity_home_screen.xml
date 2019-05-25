@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#EFEFEF"
+    tools:context=".HomeScreen">
+
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:src="@mipmap/head"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="20dp"
+        android:id="@+id/head"
+        />
+
+    <ImageButton
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:src="@mipmap/open"
+        android:background="@null"
+
+        android:layout_below="@+id/head"
+        android:id="@+id/open"
+        android:layout_marginTop="10dp"
+        android:layout_marginLeft="15dp"
+        />
+
+
+    <ImageButton
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:src="@mipmap/close"
+        android:background="@null"
+        android:layout_below="@+id/head"
+        android:id="@+id/close"
+        android:layout_toRightOf="@+id/open"
+        android:layout_marginTop="10dp"
+        android:layout_marginRight="5dp"
+        />
+
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:src="@mipmap/govt"
+        android:layout_below="@+id/open"
+        android:id="@+id/govt"
+        android:layout_marginTop="5dp"
+        android:layout_centerHorizontal="true"
+        />
+
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:src="@mipmap/view_bid"
+        android:id="@+id/view_bid"
+        android:layout_marginTop="5dp"
+        android:layout_below="@+id/govt"
+        android:layout_centerHorizontal="true"
+        />
+
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:src="@mipmap/fill"
+        android:layout_marginTop="5dp"
+        android:layout_below="@+id/view_bid"
+        android:layout_centerHorizontal="true"
+        android:id="@+id/home_specs"
+        />
+
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:src="@mipmap/store"
+        android:layout_marginTop="5dp"
+        android:layout_below="@+id/home_specs"
+        android:layout_centerHorizontal="true"
+        android:id="@+id/store"
+        />
+
+</RelativeLayout>

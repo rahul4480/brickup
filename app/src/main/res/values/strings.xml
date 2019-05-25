@@ -1,0 +1,13 @@
+<resources>
+    <string name="app_name">brick_up</string>
+    <string name="cement_type">Choose company</string>
+
+    <string-array name="cement_arrays">
+        <item>Ambuja Cement</item>
+        <item>Binani Cement</item>
+        <item>JK Cement</item>
+        <item>Sagar Cement</item>
+    </string-array>
+
+
+</resources>

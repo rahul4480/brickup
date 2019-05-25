@@ -1,0 +1,119 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:background="@android:color/white"
+    tools:context=".HouseSpec">
+
+
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:src="@mipmap/dream_h_s"
+        android:id="@+id/dream_head"
+        android:layout_margin="15dp"/>
+
+
+    <ImageView
+        android:id="@+id/icon1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignEnd="@+id/cardView"
+        android:layout_alignTop="@+id/dream_head"
+        android:layout_marginEnd="10dp"
+        android:layout_marginTop="34dp"
+        android:src="@mipmap/icon_1" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/dream_head"
+        android:text="Fill in the form"
+        android:id="@+id/fillform"
+        android:textStyle="bold"
+        android:textSize="20sp"
+        android:textColor="@android:color/black"
+        android:layout_marginLeft="30dp"
+        android:layout_marginTop="70dp"/>
+
+    <android.support.v7.widget.CardView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/fillform"
+        android:layout_margin="20dp"
+        app:cardBackgroundColor="@android:color/white"
+        android:id="@+id/cardView">
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            >
+            <EditText
+                android:layout_width="match_parent"
+                android:id="@+id/length"
+                android:layout_height="30dp"
+                android:textColor="@android:color/black"
+                android:layout_margin="20dp"
+                android:background="@null"
+                android:hint="Length (sq ft)"
+                android:textColorHint="#656565"/>
+
+            <EditText
+                android:layout_width="match_parent"
+                android:id="@+id/width"
+                android:layout_height="30dp"
+                android:background="@null"
+                android:textColor="@android:color/black"
+                android:layout_below="@id/length"
+                android:layout_margin="20dp"
+                android:hint="Width (sq ft)"
+                android:textColorHint="#656565"/>
+
+            <EditText
+                android:layout_width="match_parent"
+                android:id="@+id/location"
+                android:background="@null"
+                android:textColor="@android:color/black"
+                android:layout_height="30dp"
+                android:layout_below="@id/width"
+                android:layout_margin="20dp"
+                android:hint="Location"
+                android:textColorHint="#656565"/>
+
+            <EditText
+                android:layout_width="match_parent"
+                android:background="@null"
+                android:id="@+id/exp"
+                android:layout_height="30dp"
+                android:layout_below="@id/location"
+                android:layout_margin="20dp"
+                android:textColor="@android:color/black"
+                android:hint="Contractor's Minimum Experience"
+                android:textColorHint="#656565"/>
+
+            <EditText
+                android:layout_width="match_parent"
+                android:background="@null"
+                android:textColor="@android:color/black"
+                android:id="@+id/budget"
+                android:layout_height="30dp"
+                android:layout_below="@id/exp"
+                android:layout_margin="20dp"
+                android:hint="Budget (Mention Cost Below)"
+                android:textColorHint="#656565"/>
+
+        </RelativeLayout>
+    </android.support.v7.widget.CardView>
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="#FF5F55"
+        android:text="CONFIRM"
+        android:id="@+id/confirm_btn"
+        android:layout_alignParentBottom="true"
+        />
+
+</RelativeLayout>
